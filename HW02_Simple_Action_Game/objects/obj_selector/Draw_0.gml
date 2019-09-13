@@ -1,0 +1,1 @@
+draw_sprite(spr_selector, 0, x, y)
