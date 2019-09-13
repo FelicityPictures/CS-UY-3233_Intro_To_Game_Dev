@@ -1,0 +1,1 @@
+foodThrown = true

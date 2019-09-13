@@ -1,0 +1,5 @@
+draw_set_color(c_red)
+textVar = "Lives: " + string(global.PLAYER_LIVES)
+draw_text(50, 50, textVar)
+textVar = "Score: " + string(global.SCORE)
+draw_text(500, 50, textVar)
