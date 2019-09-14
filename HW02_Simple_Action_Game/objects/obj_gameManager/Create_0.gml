@@ -6,4 +6,4 @@ global.PLAY_EDGE_TOP = 25
 global.PLAY_WIDTH = 950
 global.PLAY_HEIGHT = 875
 
-selector = instance_create_depth(500, 250, 0, obj_selector)
+endgameChoice = 0

@@ -1,2 +1,1 @@
-x = 500
-y = 250
+movingSpeed = 10
