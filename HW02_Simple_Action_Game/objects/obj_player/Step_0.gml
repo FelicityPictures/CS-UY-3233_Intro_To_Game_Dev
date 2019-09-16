@@ -27,8 +27,14 @@ if(!invincible){
 								  obj_horizontalBone, false, false)
 	if(VboneHit != noone or HboneHit != noone){
 		invincible = true
-		global.HEALTH_POINTS -= 20
-		alarm[0] = timeSpentInvincible * 30
+		global.HEALTH_POINTS -= 70
+		if(global.HEALTH_POINTS <= 0){
+			global.HEALTH_POINTS = 1
+			instance_create_depth(x, y, 0, obj_player_dies)
+			instance_destroy()
+		}else{
+			alarm[0] = timeSpentInvincible * 30
+		}
 	}
 }else{
 	image_speed = 0.25

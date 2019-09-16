@@ -1,0 +1,1 @@
+walkSpeed = 5

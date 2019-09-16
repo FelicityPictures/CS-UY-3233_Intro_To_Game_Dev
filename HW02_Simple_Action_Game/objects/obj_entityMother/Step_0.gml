@@ -2,13 +2,13 @@ boneAccumulatedTime += delta_time/1000000
 healthAccumulatedTime += delta_time/1000000
 difficultyAccumulatedTime += delta_time/1000000
 
-if(difficultyAccumulatedTime > timeBetweenBones){
-	boneSpeed += 0.3
+if(difficultyAccumulatedTime >= timeToIncreaseDifficulty){
+	boneSpeed += 0.25
 	timeBetweenBones -= 0.1
-	difficultyAccumulatedTime -= 30.0
+	difficultyAccumulatedTime -= timeToIncreaseDifficulty
 }
 
-if(boneAccumulatedTime >= 1){
+if(boneAccumulatedTime >= timeBetweenBones){
 	boneDirection = random_range(0, 4)
 	// right to left
 	if(boneDirection < 1){
@@ -42,14 +42,14 @@ if(boneAccumulatedTime >= 1){
 		boneArray[numberOfBones].y = window_get_width() + (boneArray[numberOfBones].sprite_height/2)
 		boneArray[numberOfBones].movement = -boneSpeed
 	}
-	boneAccumulatedTime -= 1
+	boneAccumulatedTime -= timeBetweenBones
 	numberOfBones++
 }
 
-if(healthAccumulatedTime >= 5){
+if(healthAccumulatedTime >= ifTimeForHealth){
 	decideIfSpawnHealthPack = random_range(0, 100)
 	if(decideIfSpawnHealthPack > global.HEALTH_POINTS){
 		instance_create_depth(0, 0, 0, obj_healthPack)
 	}
-	healthAccumulatedTime -= 5
+	healthAccumulatedTime -= ifTimeForHealth
 }
