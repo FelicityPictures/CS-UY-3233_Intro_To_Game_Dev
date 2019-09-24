@@ -27,12 +27,14 @@ if(!invincible){
 								  obj_horizontalBone, false, false)
 	if(VboneHit != noone or HboneHit != noone){
 		invincible = true
-		global.HEALTH_POINTS -= 70
+		global.HEALTH_POINTS -= 20
 		if(global.HEALTH_POINTS <= 0){
 			global.HEALTH_POINTS = 1
+			audio_stop_sound(sfx_backgroundMusic)
 			instance_create_depth(x, y, 0, obj_player_dies)
 			instance_destroy()
 		}else{
+			audio_play_sound(sfx_hit, 2, false)
 			alarm[0] = timeSpentInvincible * 30
 		}
 	}
@@ -42,6 +44,7 @@ if(!invincible){
 
 healthHit = collision_circle(x, y, sprite_width/2, obj_healthPack, false, false)
 if(healthHit != noone){
+	audio_play_sound(sfx_heal, 2, false)
 	global.HEALTH_POINTS += 10
 	instance_destroy(healthHit)
 }
