@@ -1,0 +1,1 @@
+global.SCORE = 0
