@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1278b414-120e-4bb6-ae0d-4648a66d1760",
+            "Value": {
+                "id": "7fcc0c72-9fa6-475d-946d-dc811c33abc9",
+                "resourcePath": "objects\\obj_fire\\obj_fire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "14d56ba8-22b7-4291-97d8-be1656d40785",
             "Value": {
                 "id": "5aad8f82-1bd8-46cc-ade8-11f370ee0428",
@@ -183,10 +191,26 @@
             }
         },
         {
+            "Key": "8b63eac3-a5f7-4da5-aed0-1704633a49e9",
+            "Value": {
+                "id": "399f7986-a6a5-4faf-97d1-fad201a4d99f",
+                "resourcePath": "objects\\obj_gui\\obj_gui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8c7d8212-0fd4-4c8c-9970-3a00b904a421",
             "Value": {
                 "id": "d9ad61a8-5455-4533-af6d-f924c7b7c5af",
                 "resourcePath": "rooms\\rm_game\\rm_game.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8ea4e439-baf5-475d-8716-6a48984b8b4c",
+            "Value": {
+                "id": "816d28d2-895e-4b89-b9ff-0a9df25b46d4",
+                "resourcePath": "rooms\\rm_gameOver\\rm_gameOver.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -239,6 +263,14 @@
             }
         },
         {
+            "Key": "c4a931db-b873-4ea6-b0f3-47fe0828ee92",
+            "Value": {
+                "id": "f6cf84f4-1444-491f-bf07-85f33d2b2570",
+                "resourcePath": "sprites\\spr_flag\\spr_flag.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "93d76247-42cf-49f6-9fb1-629991ea787a",
@@ -260,6 +292,14 @@
                 "id": "24bbfd17-c7db-4cd0-b0bb-dff1c0f32af6",
                 "resourcePath": "views\\d996e2d9-3d89-45c0-a316-20110d48a1c7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e4c60d53-1657-4f55-ba5a-3d826a47553f",
+            "Value": {
+                "id": "105e06b5-e383-439d-aaff-43e165706ec8",
+                "resourcePath": "objects\\obj_flag\\obj_flag.yy",
+                "resourceType": "GMObject"
             }
         },
         {

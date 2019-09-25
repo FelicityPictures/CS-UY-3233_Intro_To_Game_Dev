@@ -1,11 +1,17 @@
-mspd=4
+sizeScale = 3
 
-grounded=false
+groundXAcceleration = 0.5
+airXAcceleration = 0.1
 
-jump_amt=0
-jump_max=4
+xSpeed = 0
+maxXSpeed = 5
 
-grav_amt=0.1
+grounded = false
 
-image_speed=1
+jump_amt = 0
+jump_max = 6
+
+grav_amt = 0.2
+
+image_speed = 1
 
