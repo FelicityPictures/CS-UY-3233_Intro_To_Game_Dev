@@ -31,11 +31,27 @@
     },
     "resources": [
         {
+            "Key": "09932111-d05f-4807-a0f1-63163aeba3af",
+            "Value": {
+                "id": "a4e4c144-c195-4e34-b986-82c2de21d7af",
+                "resourcePath": "objects\\obj_gameManager\\obj_gameManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ce52139-32aa-413c-8313-4b414b1fdbb2",
             "Value": {
                 "id": "78231654-e458-4f5d-bb25-40207f0e2c29",
                 "resourcePath": "views\\0ce52139-32aa-413c-8313-4b414b1fdbb2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "11cf3f78-c46c-44b1-9f06-b3cdedef4840",
+            "Value": {
+                "id": "0febe681-6b20-401b-a05c-65b1324e735b",
+                "resourcePath": "scripts\\createFastMissile\\createFastMissile.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -52,6 +68,22 @@
                 "id": "d7c415fa-1bb0-4dfa-8dfb-7aee9805163e",
                 "resourcePath": "views\\320371ed-0cee-4486-9294-e2eccede764b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3831289a-d2a3-4d66-b901-b36437171a11",
+            "Value": {
+                "id": "b95e0abf-39e3-4435-887b-7996ec09a2a6",
+                "resourcePath": "sprites\\spr_battery\\spr_battery.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3ff0b2b2-18ca-4095-9f3d-8f5068f77c38",
+            "Value": {
+                "id": "79389fa2-b95d-4ce4-9e6f-6be11019d198",
+                "resourcePath": "scripts\\PyramidOfBatteries\\PyramidOfBatteries.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -87,6 +119,14 @@
             }
         },
         {
+            "Key": "7132bf0f-1899-40bc-8234-e896a922e6e6",
+            "Value": {
+                "id": "946a20f1-7115-4dbe-bc98-e2e72702270d",
+                "resourcePath": "objects\\obj_missile\\obj_missile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "71e0619b-6d34-48cb-99c9-9d6b5af6f5d8",
             "Value": {
                 "id": "b657ef08-b87e-4882-8211-9f719a3ddc2c",
@@ -106,7 +146,7 @@
             "Key": "778ab2f6-6413-4822-9c0a-59e357887f6a",
             "Value": {
                 "id": "a3b04995-29ed-4f1e-90c4-ea8f7167771d",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\game\\game.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -148,6 +188,22 @@
                 "id": "21329520-d211-4d88-a337-875783a260ee",
                 "resourcePath": "objects\\obj_explosion\\obj_explosion.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9f55d41a-0ba3-442c-b61e-e1ceecbcf879",
+            "Value": {
+                "id": "24839149-1b45-4554-8591-f5b4f663685b",
+                "resourcePath": "sprites\\backgrond\\backgrond.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a3e43ab1-e9d5-462d-a9d6-df7a5ad528f7",
+            "Value": {
+                "id": "9550b0b6-ba59-483f-9ec4-35322d6a34c8",
+                "resourcePath": "scripts\\createSlowMissile\\createSlowMissile.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -248,7 +304,9 @@
         }
     ],
     "script_order": [
-        
+        "3ff0b2b2-18ca-4095-9f3d-8f5068f77c38",
+        "a3e43ab1-e9d5-462d-a9d6-df7a5ad528f7",
+        "11cf3f78-c46c-44b1-9f06-b3cdedef4840"
     ],
     "tutorial": ""
 }

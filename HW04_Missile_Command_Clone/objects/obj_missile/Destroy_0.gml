@@ -1,0 +1,1 @@
+instance_create_depth(goalX, goalY, 1, obj_explosion)

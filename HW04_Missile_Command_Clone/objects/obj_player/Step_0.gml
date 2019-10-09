@@ -11,7 +11,3 @@ if((y > room_height - 100 || y < 100)){
 }else if(y < room_height - 100 || y > 100){
 	outOfBounds = false
 }
-
-if(mouse_check_button_released(mb_left)){
-	instance_create_depth(x, y, 0, obj_explosion)
-}

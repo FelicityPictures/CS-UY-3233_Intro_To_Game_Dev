@@ -1,13 +1,13 @@
 
 {
-    "name": "room0",
+    "name": "game",
     "id": "778ab2f6-6413-4822-9c0a-59e357887f6a",
     "creationCodeFile": "",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "2c3f716c-b582-4fa9-bb31-df7d394d573d"
+        "f0ff296c-5073-42f2-bb9b-16d5c8922ec2"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_4F283993","id": "2c3f716c-b582-4fa9-bb31-df7d394d573d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4F283993","objId": "a6e81141-470d-4d63-a076-813327f9cbeb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 480,"y": 320}
+{"name": "inst_1671335B","id": "f0ff296c-5073-42f2-bb9b-16d5c8922ec2","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1671335B","objId": "09932111-d05f-4807-a0f1-63163aeba3af","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 32,"y": 416}
             ],
             "layers": [
 
@@ -39,8 +39,8 @@
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Background",
-            "id": "37052e56-c102-44db-a37f-9ad9906b431c",
+            "name": "Backgrounds_1",
+            "id": "97bbe2e1-d299-42a4-ac90-bd00d11c17bb",
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },

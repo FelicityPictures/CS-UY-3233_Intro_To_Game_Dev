@@ -1,28 +1,48 @@
 {
-    "id": "ec2d3fbe-54f1-4cb0-8241-bf5e4695ef31",
+    "id": "7132bf0f-1899-40bc-8234-e896a922e6e6",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_battery",
+    "name": "obj_missile",
     "eventList": [
         {
-            "id": "21fe9bf1-2659-43ab-9d02-f2a59981577a",
+            "id": "1adee8b6-a0d3-4a6a-a515-f7565257ed40",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "ec2d3fbe-54f1-4cb0-8241-bf5e4695ef31"
+            "m_owner": "7132bf0f-1899-40bc-8234-e896a922e6e6"
         },
         {
-            "id": "fed7f6d7-6f8c-4653-b699-b6d1c0e3eb79",
+            "id": "d30565c5-5316-45e8-8649-2fa88ee010e7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "ec2d3fbe-54f1-4cb0-8241-bf5e4695ef31"
+            "m_owner": "7132bf0f-1899-40bc-8234-e896a922e6e6"
+        },
+        {
+            "id": "b2e3464e-92fd-4dde-8808-18acd878d1df",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "7132bf0f-1899-40bc-8234-e896a922e6e6"
+        },
+        {
+            "id": "4b1d8ce4-2372-4a01-8dc9-e574da3468e1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "7132bf0f-1899-40bc-8234-e896a922e6e6"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +63,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "3831289a-d2a3-4d66-b901-b36437171a11",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

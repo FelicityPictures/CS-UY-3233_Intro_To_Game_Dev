@@ -9,3 +9,9 @@ if(sizeScale > 1 and growthSpeed > 0){
 if(sizeScale < 0){
 	instance_destroy()	
 }
+
+hitBattery = collision_circle(x, y, sprite_width/2, obj_battery, false, false)
+if(hitBattery != noone){
+	instance_create_depth(hitBattery.x, hitBattery.y, 0, obj_explosion)
+	instance_destroy(hitBattery)
+}
