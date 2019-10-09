@@ -1,1 +1,1 @@
-missilesLeft = 10
+missilesLeft = 1
