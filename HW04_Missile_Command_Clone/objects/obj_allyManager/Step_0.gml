@@ -16,12 +16,9 @@ if(mouse_check_button_released(mb_left)){
 		// destroy battery if it is spent
 		lastBattery = ds_list_find_value(leftBatteries, ds_list_size(leftBatteries)-1)
 		lastBattery.missilesLeft--
-		leftBatteryCount--
-		if(leftBatteryCount <= 0){
+		if(lastBattery.missilesLeft <= 0){
+			instance_destroy(lastBattery)
 			ds_list_delete(leftBatteries, ds_list_size(leftBatteries)-1)
-			if(ds_list_size(leftBatteries)-1 > 0){
-				leftBatteryCount = (ds_list_find_value(leftBatteries, ds_list_size(leftBatteries)-1)).missilesLeft
-			}
 		}
 	}
 	else if(centerBatteriesSize > 0 and
@@ -34,14 +31,11 @@ if(mouse_check_button_released(mb_left)){
 			createFastMissile(centerBatteryStartX, batteryStartY, recent.x, recent.y)
 		}
 		// destroy battery if it is spent
-		centerBattery = ds_list_find_value(centerBatteries, ds_list_size(centerBatteries)-1)
-		centerBattery.missilesLeft--
-		centerBatteryCount--
-		if(centerBatteryCount <= 0){
+		lastBattery = ds_list_find_value(centerBatteries, ds_list_size(centerBatteries)-1)
+		lastBattery.missilesLeft--
+		if(lastBattery.missilesLeft <= 0){
+			instance_destroy(lastBattery)
 			ds_list_delete(centerBatteries, ds_list_size(centerBatteries)-1)
-			if(ds_list_size(centerBatteries)-1 > 0){
-				centerBatteryCount = (ds_list_find_value(centerBatteries, ds_list_size(centerBatteries)-1)).missilesLeft
-			}
 		}
 	}
 	else if(rightBatteriesSize > 0 and
@@ -52,14 +46,19 @@ if(mouse_check_button_released(mb_left)){
 			createSlowMissile(rightBatteryStartX, batteryStartY, recent.x, recent.y)
 		}
 		// destroy battery if it is spent
-		rightBattery = ds_list_find_value(rightBatteries, ds_list_size(rightBatteries)-1)
-		rightBattery.missilesLeft--
-		rightBatteryCount--
-		if(rightBatteryCount <= 0){
+		lastBattery = ds_list_find_value(rightBatteries, ds_list_size(rightBatteries)-1)
+		lastBattery.missilesLeft--
+		if(lastBattery.missilesLeft <= 0){
+			instance_destroy(lastBattery)
 			ds_list_delete(rightBatteries, ds_list_size(rightBatteries)-1)
-			if(ds_list_size(rightBatteries)-1 > 0){
-				rightBatteryCount = (ds_list_find_value(rightBatteries, ds_list_size(rightBatteries)-1)).missilesLeft
-			}
 		}
 	}
+	/*
+	ds_list_sort(centerBatteries, false)
+	draw_text(room_width/2, room_height/2, string(ds_list_find_value(centerBatteries,
+			  ds_list_size(centerBatteries)-1)))
+	while(ds_list_find_value(centerBatteries, ds_list_size(centerBatteries)-1) == noone){
+		ds_list_delete(centerBatteries, ds_list_size(centerBatteries)-1)
+	}
+	*/
 }

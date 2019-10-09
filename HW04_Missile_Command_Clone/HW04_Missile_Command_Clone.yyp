@@ -34,7 +34,7 @@
             "Key": "09932111-d05f-4807-a0f1-63163aeba3af",
             "Value": {
                 "id": "a4e4c144-c195-4e34-b986-82c2de21d7af",
-                "resourcePath": "objects\\obj_gameManager\\obj_gameManager.yy",
+                "resourcePath": "objects\\obj_allyManager\\obj_allyManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -59,6 +59,14 @@
             "Value": {
                 "id": "c31392ff-8da0-4196-ba69-5c70ef87475c",
                 "resourcePath": "objects\\obj_position\\obj_position.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "19f3ba37-cd65-45d6-a332-e809f1c0855c",
+            "Value": {
+                "id": "cb5e87cd-bb20-4f64-93a0-8b64fa7bb4e2",
+                "resourcePath": "objects\\obj_enemyManager\\obj_enemyManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -116,6 +124,14 @@
                 "id": "b1d605fe-0f0b-47da-b3f2-90a0129d6ab4",
                 "resourcePath": "views\\6f699159-552e-421e-841e-2ad7b997b972.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "70105bda-6949-4c0a-a877-4f53744d5ca4",
+            "Value": {
+                "id": "dd716d83-c9ab-4e35-9558-c88c86e746cf",
+                "resourcePath": "sprites\\spr_missile\\spr_missile.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -188,14 +204,6 @@
                 "id": "21329520-d211-4d88-a337-875783a260ee",
                 "resourcePath": "objects\\obj_explosion\\obj_explosion.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "9f55d41a-0ba3-442c-b61e-e1ceecbcf879",
-            "Value": {
-                "id": "24839149-1b45-4554-8591-f5b4f663685b",
-                "resourcePath": "sprites\\backgrond\\backgrond.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "f32b6d0f-0a03-434d-bb75-b18578c2cb61",
+            "Value": {
+                "id": "1d7f7479-83e1-4c61-8815-86f7e6a45148",
+                "resourcePath": "scripts\\createEnemyMissile\\createEnemyMissile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "b6ba860a-d461-4e39-bbb7-6d03d3b897f8",
@@ -306,6 +322,7 @@
     "script_order": [
         "3ff0b2b2-18ca-4095-9f3d-8f5068f77c38",
         "a3e43ab1-e9d5-462d-a9d6-df7a5ad528f7",
+        "f32b6d0f-0a03-434d-bb75-b18578c2cb61",
         "11cf3f78-c46c-44b1-9f06-b3cdedef4840"
     ],
     "tutorial": ""
