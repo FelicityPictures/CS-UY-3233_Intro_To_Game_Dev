@@ -14,6 +14,4 @@ newMissile.goalLength = sqrt(sqr(goalX-startX) + sqr(goalY-startY))
 newMissile.color = c_red
 
 // what makes it a slower missile
-newMissile.velocity = 1
-
-return newMissile
+newMissile.velocity = 0.4

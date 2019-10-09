@@ -15,5 +15,3 @@ newMissile.color = c_aqua
 
 // what makes it a slower missile
 newMissile.velocity = 15
-
-return newMissile
