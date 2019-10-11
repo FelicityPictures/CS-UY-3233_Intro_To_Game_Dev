@@ -1,3 +1,4 @@
-if(room == game){
-	// draw_sprite_ext(spr_bg,0,0,0,1,1,0,c_white,1)
+if(room == gameOver){
+	draw_set_halign(fa_center)
+	draw_text_transformed(room_width/2, room_height/2, "Game over. All your cities were destroyed", 2, 2, 0)
 }

@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "09061dbb-ffd7-48f3-9f3f-9325c0d636c0",
+            "Value": {
+                "id": "e3ecfcf7-5975-4ec8-9cd0-4c22ff3e2029",
+                "resourcePath": "objects\\obj_city\\obj_city.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09932111-d05f-4807-a0f1-63163aeba3af",
             "Value": {
                 "id": "a4e4c144-c195-4e34-b986-82c2de21d7af",
@@ -59,6 +67,22 @@
             "Value": {
                 "id": "c31392ff-8da0-4196-ba69-5c70ef87475c",
                 "resourcePath": "objects\\obj_position\\obj_position.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "12b914a8-1c2b-4461-b80a-8e1b4197390a",
+            "Value": {
+                "id": "7aff0865-9ab9-45b0-9b7d-84a20360c907",
+                "resourcePath": "sprites\\spr_city\\spr_city.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "16e168c7-96a4-4ba3-b962-d985a0f77142",
+            "Value": {
+                "id": "8325e0c6-00e8-4dfb-8ac4-c88339bc48e9",
+                "resourcePath": "objects\\obj_gameManager\\obj_gameManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -175,6 +199,14 @@
             }
         },
         {
+            "Key": "78370ede-af85-4d72-89f8-54c2b4c762c1",
+            "Value": {
+                "id": "8e8a838d-e85b-4246-8316-d619ea9d1a0e",
+                "resourcePath": "rooms\\start\\start.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7b89b36e-63c8-4450-b51f-740c5a87e339",
             "Value": {
                 "id": "e8e25b68-9d24-43e0-aafc-d1bcef3ea8dc",
@@ -220,6 +252,14 @@
                 "id": "981d0982-ff15-4770-8edc-c9d3f510660c",
                 "resourcePath": "sprites\\spr_missile\\spr_missile.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a1ebe2c2-62bc-4240-92d0-197af0d90666",
+            "Value": {
+                "id": "2087fa16-b622-4a4b-9d79-45e847eb778a",
+                "resourcePath": "rooms\\gameOver\\gameOver.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

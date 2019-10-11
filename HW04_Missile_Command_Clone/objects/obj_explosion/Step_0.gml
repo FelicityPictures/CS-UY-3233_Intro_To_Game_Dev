@@ -20,3 +20,8 @@ hitMissile = collision_circle(x, y, sprite_width/2, obj_missile, false, true)
 if(hitMissile != noone){
 	instance_destroy(hitMissile)
 }
+
+hitCity = collision_circle(x, y, sprite_width/2, obj_city, false, true)
+if(hitCity != noone){
+	instance_destroy(hitCity)
+}

@@ -1,3 +1,11 @@
+global.SCORE = 5
+cityY = 725
+instance_create_depth(203, cityY, 1, obj_city)
+instance_create_depth(306, cityY, 1, obj_city)
+instance_create_depth(409, cityY, 1, obj_city)
+instance_create_depth(650, cityY, 1, obj_city)
+instance_create_depth(787, cityY, 1, obj_city)
+
 batteryStartY = 700
 
 //fill leftBatteries

@@ -13,5 +13,5 @@ newMissile.angle = point_direction(startX, startY, goalX, goalY)
 newMissile.goalLength = sqrt(sqr(goalX-startX) + sqr(goalY-startY))
 newMissile.color = c_red
 
-// what makes it a slower missile
-newMissile.velocity = 0.4
+
+newMissile.velocity = 8
