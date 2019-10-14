@@ -4,6 +4,7 @@ if(mouse_check_button_released(mb_left)){
 	rightBatteriesSize = ds_list_size(rightBatteries)
 	centerBatteriesSize = ds_list_size(centerBatteries)
 	
+	// left batteries
 	if(leftBatteriesSize > 0 and
 	((recent.x < room_width/3) or
 	(centerBatteriesSize <= 0 and (recent.x < room_width/2 or rightBatteries <= 0)) or
@@ -15,8 +16,11 @@ if(mouse_check_button_released(mb_left)){
 		}
 		// decrement battery's missile
 		lastBattery = ds_list_find_value(leftBatteries, ds_list_size(leftBatteries)-1)
-		lastBattery.missilesLeft -= 1
+		lastBattery.missilesLeft--
+		instance_destroy(lastBattery)
+		ds_list_delete(leftBatteries, ds_list_size(leftBatteries)-1)
 	}
+	// center batteries
 	else if(centerBatteriesSize > 0 and
 	((recent.x > room_width/3 and recent.x < (room_width*2)/3) or
 	(leftBatteriesSize <= 0 and recent.x < room_width/3) or
@@ -29,7 +33,10 @@ if(mouse_check_button_released(mb_left)){
 		// decrement battery's missile
 		lastBattery = ds_list_find_value(centerBatteries, ds_list_size(centerBatteries)-1)
 		lastBattery.missilesLeft--
+		instance_destroy(lastBattery)
+		ds_list_delete(centerBatteries, ds_list_size(centerBatteries)-1)
 	}
+	// right batteries
 	else if(rightBatteriesSize > 0 and
 		(recent.x > (room_width/3)*2 or centerBatteriesSize <= 0 or leftBatteries <= 0)){
 		if(player.outOfBounds){
@@ -40,9 +47,7 @@ if(mouse_check_button_released(mb_left)){
 		// decrement battery's missile
 		lastBattery = ds_list_find_value(rightBatteries, ds_list_size(rightBatteries)-1)
 		lastBattery.missilesLeft--
+		instance_destroy(lastBattery)
+		ds_list_delete(rightBatteries, ds_list_size(rightBatteries)-1)
 	}
 }
-
-checkListForSpentBatteries(leftBatteries)
-checkListForSpentBatteries(centerBatteries)
-checkListForSpentBatteries(rightBatteries)

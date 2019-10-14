@@ -1,0 +1,1 @@
+printedScore = string(global.SCORE)

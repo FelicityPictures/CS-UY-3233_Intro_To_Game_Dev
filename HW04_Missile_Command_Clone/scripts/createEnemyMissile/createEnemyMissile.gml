@@ -1,7 +1,8 @@
-startX = argument0
-startY = argument1
-goalX = argument2
-goalY = argument3
+list = argument0
+startX = argument1
+startY = argument2
+goalX = argument3
+goalY = argument4
 
 newMissile = instance_create_depth(goalX, goalY, 0, obj_missile)
 
@@ -14,4 +15,6 @@ newMissile.goalLength = sqrt(sqr(goalX-startX) + sqr(goalY-startY))
 newMissile.color = c_red
 
 
-newMissile.velocity = 8
+newMissile.velocity = 1
+
+ds_list_add(list, newMissile)

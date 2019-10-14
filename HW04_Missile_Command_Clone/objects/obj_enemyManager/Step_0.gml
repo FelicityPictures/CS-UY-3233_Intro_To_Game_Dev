@@ -1,10 +1,20 @@
-timer += delta_time
+waveTimer += delta_time
+planeTimer += delta_time
 
-if(timer >= 3000000 && waves < 5){
+if(waveTimer >= timeBetweenWaves && waves < maximumWaves){
 	for(i = 0; i < 4; i++){
-		createEnemyMissile(random_range(50, room_width-50), random_range(0,-10),
+		createEnemyMissile(missileTracker,
+			random_range(50, room_width-50), random_range(0,-10),
 			choose(100, 512) + (random_range(1,3)*103), 725)
 	}
-	timer -= 3000000
+	waveTimer -= timeBetweenWaves
 	waves++
+}
+if(waves >= maximumWaves && ds_list_size(missileTracker) <= 0){
+	alarm[0] = 2 * room_speed
+}
+
+if(planeTimer > timeBetweenPlanes){
+	createEnemyAirplane()
+	planeTimer -= timeBetweenPlanes
 }

@@ -1,2 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+global.citiesLeft = ds_list_create()
+
+// createCities(global.citiesLeft)
+
+global.SCORE = 0

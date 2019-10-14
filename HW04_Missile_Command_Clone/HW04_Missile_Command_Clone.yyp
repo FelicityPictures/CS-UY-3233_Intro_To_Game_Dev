@@ -95,6 +95,22 @@
             }
         },
         {
+            "Key": "21117fcd-fb42-4505-a825-efa951298827",
+            "Value": {
+                "id": "265c5006-dcf5-4de9-8512-5c679c5fbcef",
+                "resourcePath": "scripts\\createEnemyAirplane\\createEnemyAirplane.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2b33510d-a799-4051-82ba-7f40c70bfad8",
+            "Value": {
+                "id": "92e36169-e37d-4b2f-ba34-8b3991c51608",
+                "resourcePath": "scripts\\checkIfMissileDestroyed\\checkIfMissileDestroyed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "320371ed-0cee-4486-9294-e2eccede764b",
             "Value": {
                 "id": "d7c415fa-1bb0-4dfa-8dfb-7aee9805163e",
@@ -143,11 +159,27 @@
             }
         },
         {
+            "Key": "45738625-1b08-4237-b458-2170f66c7a7d",
+            "Value": {
+                "id": "42675abc-e8d6-46af-b32b-3ac031b5d57a",
+                "resourcePath": "rooms\\gameComplete\\gameComplete.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "49d49946-77df-42db-ab63-970209316d31",
             "Value": {
                 "id": "1c25a2dd-0298-4d95-8ba0-e0709579c9d4",
                 "resourcePath": "views\\49d49946-77df-42db-ab63-970209316d31.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5ddbdefe-a613-4778-b42e-2da01aa7eae8",
+            "Value": {
+                "id": "1489a2ed-5292-4c30-9189-62f799893ec8",
+                "resourcePath": "sprites\\spr_plane\\spr_plane.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -279,6 +311,14 @@
             }
         },
         {
+            "Key": "a48d4961-9c1f-4162-9b24-32a5ca9c7108",
+            "Value": {
+                "id": "cfd42054-6c41-4d48-aa73-0d66bb957669",
+                "resourcePath": "objects\\obj_plane\\obj_plane.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a6e81141-470d-4d63-a076-813327f9cbeb",
             "Value": {
                 "id": "754d773e-fef9-4f34-af93-9cc05e0e4ffc",
@@ -292,6 +332,14 @@
                 "id": "8bf4167d-246a-443a-b8b9-42c656acf23e",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b12617f5-afb9-4c8f-8a52-9c1e01670d49",
+            "Value": {
+                "id": "a7e905c6-1c26-41cb-8878-5c17ab1a20fc",
+                "resourcePath": "scripts\\checkForDead\\checkForDead.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -367,6 +415,14 @@
             }
         },
         {
+            "Key": "f1962b49-ca7e-445e-a5f8-f8f3c4122a36",
+            "Value": {
+                "id": "f33a78d0-5d3f-40e4-9e69-ab94023c7fe7",
+                "resourcePath": "scripts\\createCities\\createCities.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f32b6d0f-0a03-434d-bb75-b18578c2cb61",
             "Value": {
                 "id": "1d7f7479-83e1-4c61-8815-86f7e6a45148",
@@ -388,7 +444,11 @@
         "a3e43ab1-e9d5-462d-a9d6-df7a5ad528f7",
         "f32b6d0f-0a03-434d-bb75-b18578c2cb61",
         "11cf3f78-c46c-44b1-9f06-b3cdedef4840",
-        "3f637ba3-c5da-432d-8cf8-8f651530140e"
+        "3f637ba3-c5da-432d-8cf8-8f651530140e",
+        "21117fcd-fb42-4505-a825-efa951298827",
+        "b12617f5-afb9-4c8f-8a52-9c1e01670d49",
+        "f1962b49-ca7e-445e-a5f8-f8f3c4122a36",
+        "2b33510d-a799-4051-82ba-7f40c70bfad8"
     ],
     "tutorial": ""
 }
