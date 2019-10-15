@@ -15,4 +15,5 @@ if(room == start){
 	draw_set_halign(fa_center)
 	draw_set_color(c_silver)
 	draw_text_transformed(room_width/2, 50, printedScore, 2, 2, 0)
+	draw_sprite(spr_bg, 0, 0, 0)
 }
