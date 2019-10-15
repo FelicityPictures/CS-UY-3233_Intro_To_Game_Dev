@@ -51,3 +51,7 @@ if(mouse_check_button_released(mb_left)){
 		ds_list_delete(rightBatteries, ds_list_size(rightBatteries)-1)
 	}
 }
+checkListForSpentBatteries(leftBatteries)
+checkListForSpentBatteries(rightBatteries)
+checkListForSpentBatteries(centerBatteries)
+global.MISSILESLEFT = ds_list_size(leftBatteries) + ds_list_size(rightBatteries) + ds_list_size(centerBatteries)

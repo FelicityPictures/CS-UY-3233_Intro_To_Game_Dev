@@ -1,6 +1,6 @@
 
 {
-    "name": "gameOver",
+    "name": "finish",
     "id": "a1ebe2c2-62bc-4240-92d0-197af0d90666",
     "creationCodeFile": "",
     "inheritCode": false,

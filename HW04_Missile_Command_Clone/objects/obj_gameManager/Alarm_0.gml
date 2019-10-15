@@ -1,3 +1,6 @@
-/// @description switch to game over room
+/// @description switch to finish room
 
-room_goto(gameOver)
+global.SCORE += 100 * global.LIVES
+global.SCORE += 5 * global.MISSILESLEFT
+switchingRoom = false
+room_goto(finish)

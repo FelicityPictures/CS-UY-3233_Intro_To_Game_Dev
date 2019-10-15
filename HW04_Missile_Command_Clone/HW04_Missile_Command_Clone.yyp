@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "2b33510d-a799-4051-82ba-7f40c70bfad8",
-            "Value": {
-                "id": "92e36169-e37d-4b2f-ba34-8b3991c51608",
-                "resourcePath": "scripts\\checkIfMissileDestroyed\\checkIfMissileDestroyed.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "320371ed-0cee-4486-9294-e2eccede764b",
             "Value": {
                 "id": "d7c415fa-1bb0-4dfa-8dfb-7aee9805163e",
@@ -156,14 +148,6 @@
                 "id": "e224d5dd-393f-4b13-adcd-f0203a57ab49",
                 "resourcePath": "views\\44d4e746-c294-4373-8f2e-fe1b3b49e9ca.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "45738625-1b08-4237-b458-2170f66c7a7d",
-            "Value": {
-                "id": "42675abc-e8d6-46af-b32b-3ac031b5d57a",
-                "resourcePath": "rooms\\gameComplete\\gameComplete.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -290,7 +274,7 @@
             "Key": "a1ebe2c2-62bc-4240-92d0-197af0d90666",
             "Value": {
                 "id": "2087fa16-b622-4a4b-9d79-45e847eb778a",
-                "resourcePath": "rooms\\gameOver\\gameOver.yy",
+                "resourcePath": "rooms\\finish\\finish.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -332,14 +316,6 @@
                 "id": "8bf4167d-246a-443a-b8b9-42c656acf23e",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "b12617f5-afb9-4c8f-8a52-9c1e01670d49",
-            "Value": {
-                "id": "a7e905c6-1c26-41cb-8878-5c17ab1a20fc",
-                "resourcePath": "scripts\\checkForDead\\checkForDead.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -415,14 +391,6 @@
             }
         },
         {
-            "Key": "f1962b49-ca7e-445e-a5f8-f8f3c4122a36",
-            "Value": {
-                "id": "f33a78d0-5d3f-40e4-9e69-ab94023c7fe7",
-                "resourcePath": "scripts\\createCities\\createCities.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f32b6d0f-0a03-434d-bb75-b18578c2cb61",
             "Value": {
                 "id": "1d7f7479-83e1-4c61-8815-86f7e6a45148",
@@ -445,10 +413,7 @@
         "f32b6d0f-0a03-434d-bb75-b18578c2cb61",
         "11cf3f78-c46c-44b1-9f06-b3cdedef4840",
         "3f637ba3-c5da-432d-8cf8-8f651530140e",
-        "21117fcd-fb42-4505-a825-efa951298827",
-        "b12617f5-afb9-4c8f-8a52-9c1e01670d49",
-        "f1962b49-ca7e-445e-a5f8-f8f3c4122a36",
-        "2b33510d-a799-4051-82ba-7f40c70bfad8"
+        "21117fcd-fb42-4505-a825-efa951298827"
     ],
     "tutorial": ""
 }

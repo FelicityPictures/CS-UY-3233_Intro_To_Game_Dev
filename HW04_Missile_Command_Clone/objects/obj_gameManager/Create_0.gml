@@ -1,5 +1,5 @@
-global.citiesLeft = ds_list_create()
-
-// createCities(global.citiesLeft)
-
+global.LIVES = 5
 global.SCORE = 0
+global.MISSILESLEFT = 30
+
+switchingRoom = false

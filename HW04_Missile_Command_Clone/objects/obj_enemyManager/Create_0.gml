@@ -8,8 +8,10 @@ for(i = 0; i < 4; i++){
 
 waveTimer = 0.0
 waves = 0
-maximumWaves = 1
-timeBetweenWaves = 3000000
+maximumWaves = 4
+timeBetweenWaves = 10000000
 
 planeTimer = 0.0
 timeBetweenPlanes = 10000000
+
+switchTriggered = false

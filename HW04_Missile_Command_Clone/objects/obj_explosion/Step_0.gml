@@ -17,15 +17,16 @@ if(hitBattery != noone){
 }
 
 hitMissile = collision_circle(x, y, sprite_width/2, obj_missile, false, true)
-if(hitMissile != noone){
+if(hitMissile != noone && hitMissile.friendly == false){
+	if(friendly == true){
+		global.SCORE += 25
+	}
 	instance_destroy(hitMissile)
-	global.SCORE += 25
 }
 
 hitCity = collision_circle(x, y, sprite_width/2, obj_city, false, true)
 if(hitCity != noone){
-	hitCity.alive = false
-	checkForDead(global.citiesLeft)
+	instance_destroy(hitCity)
 }
 
 hitPlane = collision_circle(x, y, sprite_width/2, obj_plane, false, true)

@@ -16,5 +16,6 @@ newMissile.color = c_red
 
 
 newMissile.velocity = 1
+newMissile.friendly = false
 
 ds_list_add(list, newMissile)

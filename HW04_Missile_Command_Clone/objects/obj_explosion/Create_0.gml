@@ -3,3 +3,5 @@ growthSpeed = 0.02
 
 image_xscale = sizeScale
 image_yscale = sizeScale
+
+friendly = false
